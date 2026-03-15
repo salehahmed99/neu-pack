@@ -6,10 +6,7 @@
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
-  "nativeAllowList": [
-    "app.*",
-    "filesystem.readDirectory"
-  ],
+  "nativeAllowList": ["app.*", "filesystem.*", "os.*"],
   "modes": {
     "window": {
       "title": "myapp",
