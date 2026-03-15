@@ -1,16 +1,15 @@
-# 📦 Neu-Pack - Neutralinojs Project Bundler
+# Neu-Pack - Neutralinojs Project Bundler
 
-A high-performance, **TypeScript-powered** desktop utility built with **Neutralinojs**, **Vite**, and **React**. Neu-Pack demonstrates advanced framework architecture by offloading heavy I/O tasks to a **Node.js Extension** while maintaining a fluid, animated UI.
+A high-performance, **TypeScript-powered** desktop utility built with **Neutralinojs**, **Vite**, and **React**. Neu-Pack demonstrates advanced framework architecture by extending the native API through a custom **Node.js Extension** and a real-time **WebSocket** communication bridge.
 
 ## ✨ Features
 
 - **Deep Scan Engine** - Recursively analyzes directory structures to calculate total file counts and project size.
-- **Real-time Progress** - Bi-directional communication provides live percentage updates during zipping.
+- **WebSocket Communication** - Real-time, bi-directional events between the React UI and the background extension for live updates.
+- **Native API Extension** - Extends the Neutralinojs core with file compression capabilities (not available in the standard API).
 - **Atomic Write Strategy** - Uses `.tmp` file streaming to ensure zip archives are never corrupted if a process is interrupted.
-- **Native OS Integration** - Seamlessly triggers native folder selection dialogs via the OS API.
-- **Process Control** - Ability to abort active zipping operations and clean up temporary artifacts.
-- **Developer UI** - A sleek "Carbon" dark-mode aesthetic with smooth Framer Motion transitions and spring physics.
-- **Three-Tier Architecture** - Clean separation between UI (React), Bridge (Neutralino), and Worker (Node.js).
+- **Process Control** - Ability to abort active zipping operations and clean up temporary artifacts immediately.
+- **Three-Tier Architecture** - High-level separation between UI (React), Bridge (Neutralino), and Native Logic (Node.js).
 
 ## 🎨 ScreenShots - UI :
 
