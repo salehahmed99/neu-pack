@@ -196,7 +196,7 @@ const App: React.FC = () => {
                 <Archive className="w-5 h-5 text-primary-foreground stroke-[2.5]" />
               </div>
               <h1 className="text-card-foreground font-bold tracking-[-0.04em]">
-                Neu-Pack
+                InfoZip
               </h1>
               <span className="text-[10px] font-mono surface-raised px-1.5 py-0.5 rounded text-muted-foreground mt-0.5">
                 v1.0.0

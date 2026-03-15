@@ -1,6 +1,6 @@
-# Neu-Pack - Neutralinojs Project Bundler
+# InfoZip - Modern Directory Utility
 
-A high-performance, **TypeScript-powered** desktop utility built with **Neutralinojs**, **Vite**, and **React**. Neu-Pack demonstrates advanced framework architecture by extending the native API through a custom **Node.js Extension** and a real-time **WebSocket** communication bridge.
+A lightweight, cross-platform desktop app built with **Neutralinojs** designed to provide deep directory insights and reliable file compression.
 
 ## ✨ Features
 
@@ -10,13 +10,14 @@ A high-performance, **TypeScript-powered** desktop utility built with **Neutrali
 - **Atomic Write Strategy** - Uses `.tmp` file streaming to ensure zip archives are never corrupted if a process is interrupted.
 - **Process Control** - Ability to abort active zipping operations and clean up temporary artifacts immediately.
 - **Three-Tier Architecture** - High-level separation between UI (React), Bridge (Neutralino), and Native Logic (Node.js).
+- **Stunning UI & Smooth Animations** — A polished UI powered by Tailwind CSS and Framer Motion, utilizing spring physics for ultra-smooth, responsive interactions.
 
 ## 🎨 ScreenShots - UI :
 
-<img src="https://github.com/salehahmed99/neu-pack/blob/main/readme-assets/1.png"  alt="1" />
-<img src="https://github.com/salehahmed99/neu-pack/blob/main/readme-assets/2.png"  alt="2" />
-<img src="https://github.com/salehahmed99/neu-pack/blob/main/readme-assets/3.png"  alt="3" />
-<img src="https://github.com/salehahmed99/neu-pack/blob/main/readme-assets/4.png"  alt="4" />
+<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/1.png"  alt="1" />
+<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/2.png"  alt="2" />
+<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/3.png"  alt="3" />
+<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/4.png"  alt="4" />
 
 ## 🧠 How It's Built Using Neutralinojs APIs
 
