@@ -64,6 +64,12 @@ events.on("zipProgress", (event) => {
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+- **Node.js 22+**
+
+### Installation & Setup
+
 ```bash
 # 1. Install Neutralinojs CLI
 npm install -g @neutralinojs/neu
