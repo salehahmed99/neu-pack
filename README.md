@@ -76,13 +76,15 @@ cd info-zip
 neu update
 
 # 4. Install extension dependencies
-cd extensions/zipper && npm install
+cd extensions/zipper 
+npm install
 
 # 5. Install React dependencies
-cd ../../react-src && npm install
+cd ../../react-src 
+npm install
 
 # 6. Run the application
-cd ../..
+cd ..
 neu run
 
 ```
