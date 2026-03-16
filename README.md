@@ -12,12 +12,8 @@ A lightweight, cross-platform desktop app built with **Neutralinojs** designed t
 - **Three-Tier Architecture** - High-level separation between UI (React), Bridge (Neutralino), and Native Logic (Node.js).
 - **Stunning UI & Smooth Animations** — A polished UI powered by Tailwind CSS and Framer Motion, utilizing spring physics for ultra-smooth, responsive interactions.
 
-## 🎨 ScreenShots - UI :
-
-<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/1.png"  alt="1" />
-<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/2.png"  alt="2" />
-<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/3.png"  alt="3" />
-<img src="https://github.com/salehahmed99/info-zip/blob/main/readme-assets/4.png"  alt="4" />
+## 📸 Demo :
+https://github.com/user-attachments/assets/437073bf-e1fd-480e-8dfa-f36b3efc0ae8
 
 ## 🧠 How It's Built Using Neutralinojs APIs
 
