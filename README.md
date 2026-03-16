@@ -13,6 +13,7 @@ A lightweight, cross-platform desktop app built with **Neutralinojs** designed t
 - **Stunning UI & Smooth Animations** — A polished UI powered by Tailwind CSS and Framer Motion, utilizing spring physics for ultra-smooth, responsive interactions.
 
 ## 📸 Demo :
+
 https://github.com/user-attachments/assets/437073bf-e1fd-480e-8dfa-f36b3efc0ae8
 
 ## 🧠 How It's Built Using Neutralinojs APIs
@@ -67,13 +68,20 @@ events.on("zipProgress", (event) => {
 # 1. Install Neutralinojs CLI
 npm install -g @neutralinojs/neu
 
-# 2. Install extension dependencies
+# 2. Clone and enter the repo
+git clone https://github.com/salehahmed99/info-zip.git
+cd info-zip
+
+# 3. Download the native binaries
+neu update
+
+# 4. Install extension dependencies
 cd extensions/zipper && npm install
 
-# 3. Install React dependencies
+# 5. Install React dependencies
 cd ../../react-src && npm install
 
-# 4. Run the application
+# 6. Run the application
 cd ../..
 neu run
 
