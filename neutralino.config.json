@@ -1,5 +1,5 @@
 {
-  "applicationId": "js.neutralino.zero",
+  "applicationId": "js.neutralino.infozip",
   "version": "1.0.0",
   "defaultMode": "window",
   "documentRoot": "/react-src/dist",
@@ -24,7 +24,7 @@
     }
   },
   "cli": {
-    "binaryName": "myapp",
+    "binaryName": "infozip",
     "resourcesPath": "/react-src/dist/",
     "extensionsPath": "/extensions/",
     "binaryVersion": "6.5.0",
